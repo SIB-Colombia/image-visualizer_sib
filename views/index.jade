@@ -1,0 +1,12 @@
+extends layout
+
+block content
+
+	#left-column.column
+		h2 Animales
+		ul#images
+			if(image)
+				li(class='image-name')
+					a(href='#') #{image.name}
+
+	

@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Rana Sabanera",
+		"name_url": "rana_sabanera",
+		"description": "Amfibio anuro que vive en Colombia en la Cordillera Oriental de los Andes entre los 2.400 y 3.200 m de altitud.",
+		"keys": "rana,anfibio",
+		"group": "AMPHIBIA",
+		"src": "/images/121-RANA SABANERA.jpg",
+		"url_portal": "",
+		"prev": "",
+		"next": "mutum"
+	},
+	{
+		"name": "Mutum",
+		"name_url": "mutum",
+		"description": "Ave de la familia Cracidae conocidas vulgarmente como paujiles, pajuíes, hocos, pavones, mamacos o muitúes.",
+		"keys": "ave,mutum",
+		"group": "AVES",
+		"src": "/images/52-MUTUM.jpg",
+		"url_portal": "",
+		"prev": "rana_sabanera",
+		"next": "murcielago_pescador"
+	},
+	{
+		"name": "Murciélago Pescador",
+		"name_url": "Murciélago Pescador",
+		"description": "Es una especie de quiróptero que habita en zonas de bosque húmedo desde México hasta el norte de Argentina. Se alimenta principalmente de crustáceos, insectos y peces",
+		"keys": "murciélago,mamífero",
+		"group": "MAMMALIA",
+		"src": "/images/145-MURCIELAGO_PESCADOR.jpg",
+		"url_portal": "",
+		"prev": "mutum",
+		"next": ""
+	}
+]
