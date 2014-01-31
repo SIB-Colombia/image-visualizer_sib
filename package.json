@@ -1,14 +1,45 @@
 {
-  "name": "SiB-Renaser",
+  "name": "SiB-BlogImageRoll",
+  "description": "Image blog of SIB Colombia.",
   "version": "0.0.1",
   "private": true,
+  "author": "Oscar Duque <oduque@humboldt.org.co>",
+  "contributors": [ 
+    {
+      "name": "Valentina Grajales",
+      "email": "lgrajales@humboldt.org.co"
+    },
+    {
+      "name": "Carlos Cubillos",
+      "email": "ccubillos@humboldt.org.co"
+    }
+  ],
   "scripts": {
-    "start": "node app.js"
+    "start": "./node_modules/.bin/nodemon app.js"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
   "dependencies": {
-    "express": "3.3.4",
-    "jade": "*",
-    "nedb": "*",
-    "csvtojson": ""
+    "express": "latest",
+    "async": "latest",
+    "jade": "latest",
+    "stylus": "latest",
+    "pouchdb": "latest",
+    "winston": "latest",
+    "nodemon": "latest"
+  },
+  "devDependencies": {
+    "supertest": "latest",
+    "should": "latest",
+    "mocha": "latest",
+    "expect": "latest",
+    "nodemon": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.21"
   }
 }

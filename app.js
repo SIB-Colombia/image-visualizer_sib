@@ -3,6 +3,22 @@
  */
 
 var express = require('express')
+  , http = require('http');
+
+var app = express();
+
+// Load runtime vars
+require('./config/runtime_vars');
+
+// Load app configuration
+require('./config/environments/all')(app);
+
+http.createServer(app).listen(app.get('port'), function() {
+  console.log('Express server listening on port ' + app.get('port'));
+});
+/*
+https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=0AsLJenSPWyY8dE1Kb2dqQTFIREFoYl9aLXpFWGVlc0E&exportFormat=csv
+var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
   , image = require('./routes/image')
@@ -100,4 +116,4 @@ app.post("/renaser/login", function (req, res) {
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
-});
+});*/
