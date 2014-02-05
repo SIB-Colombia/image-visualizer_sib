@@ -3,8 +3,8 @@
 		
 	$(window).load(function () {
 		var img = new Image();
-        console.log('on load window');
-        console.log(slidetime);
+        //console.log('on load window');
+        //console.log(slidetime);
 		setTimeout('next()', slidetime);
         $('.tabmenu').show();
 	});
@@ -86,7 +86,7 @@
 	} );
 
 	function change_class(el) {
-        console.log($(el).attr('class'));
+        //console.log($(el).attr('class'));
 		if ($(el).attr('class')=='play') {
 			active=false;
 			$(el).attr('class', 'pause');
@@ -98,8 +98,8 @@
 	}
 
 	function next() {
-        console.log("algo");
-        console.log(active);
+        //console.log("algo");
+        //console.log(active);
 		if (active) {
 			window.location = '/id/'+next_image;
 		}
@@ -166,7 +166,7 @@
                     width: 0
                 }, 600, function() {
                     $('#contentframe').hide();
-                    $('#content').prepend($('<a id="logo_min" style="display:none" target="_top" href=""><img src="/images/renaserlogo3.jpg" alt="renaser"></a>'));
+                    $('#content').prepend($('<a id="logo_min" style="display:none" target="_top" href=""><img src="/images/logo_sib_portal.png" alt="SIB Colombia"></a>'));
                     $('#logo_min').fadeIn();
                     });
             } else {

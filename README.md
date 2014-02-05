@@ -1,4 +1,4 @@
-renaser-app
+image-visualizer-app
 ===========
 
-Visualizador de imagenes para renaser
+Foto blog de imagenes para SIB Colombia
