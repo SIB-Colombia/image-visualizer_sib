@@ -28,7 +28,10 @@
     "async": "latest",
     "jade": "latest",
     "stylus": "latest",
-    "pouchdb": "latest",
+    "taffydb": "latest",
+    "csv-streamify": "latest",
+    "underscore": "latest",
+    "request": "latest",
     "winston": "latest",
     "nodemon": "latest"
   },

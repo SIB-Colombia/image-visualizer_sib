@@ -71,13 +71,13 @@
                 if (active_tab!='') {
                     return false;
                 }
-            	location = '/'+prev_image;
+            	location = '/id/'+prev_image;
                 break;
             case 39:
                 if (active_tab!='') {
                     return false;
                 }
-                location = '/'+next_image;
+                location = '/id/'+next_image;
                 break;
             case 27:
                 tab_min();
@@ -101,7 +101,7 @@
         console.log("algo");
         console.log(active);
 		if (active) {
-			window.location = '/'+next_image;
+			window.location = '/id/'+next_image;
 		}
 	}
 

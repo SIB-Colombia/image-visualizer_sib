@@ -42,7 +42,15 @@ a.comments{background-image:url('../images/btn_comments.png');top:0;}
 #navigation a.prev:hover{background-position:0 -44px;}
 #navigation a.play:hover{background-position:-45px -44px;}
 #navigation a.next:hover{background-position:-92px -44px;}#navigation a.pause:hover{background-position:-45px -132px;}#money{position:absolute;left:28px;bottom:100px;}
-#loading{position:absolute;top:49.5%;left:49.5%;z-index:3;width:24px;height:24px;background-image:url(../images/progress.gif);}
+#loading{
+  position: absolute;
+  top: 49.5%;
+  left: 49.5%;
+  z-index: 3;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/progress.gif);
+  }
 .wrapper {
   position: fixed; 
   top: -50%; 
