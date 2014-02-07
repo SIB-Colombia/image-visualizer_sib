@@ -1,0 +1,6 @@
+public/fotoblog/javascripts/jquery-1.11.0.min.js
+public/fotoblog/javascripts/jquery-ui.min.js
+public/fotoblog/javascripts/jquery.mousewheel.min.js
+public/fotoblog/javascripts/supersized.2.0.min.js
+public/fotoblog/javascripts/jquery.iviewer.min.js
+public/fotoblog/javascripts/locals.min.js
