@@ -35,11 +35,11 @@ module.exports = function(parent, options){
       switch (key) {
         case 'index':
           method = 'get';
-          path = '/photoblog';
+          path = '/fotoblog';
           break;
         case 'getImage':
           method = 'get';
-          path = '/photoblog/id/:' + '_id';
+          path = '/fotoblog/id/:' + '_id';
           break;
         default:
           throw new Error('unrecognized route: ' + name + '.' + key);
