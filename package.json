@@ -15,7 +15,7 @@
     }
   ],
   "scripts": {
-    "minify": "./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/locals.js -o public/photoblog/javascripts/locals.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/supersized.2.0.js -o public/photoblog/javascripts/supersized.2.0.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/jquery-ui.js -o public/photoblog/javascripts/jquery-ui.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/jquery.iviewer.js -o public/photoblog/javascripts/jquery.iviewer.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/jquery.mousewheel.js -o public/photoblog/javascripts/jquery.mousewheel.min.js;./node_modules/concat/bin/concat.bin.js public/photoblog/javascripts/concatOrder.txt public/photoblog/javascripts/app.min.js",
+    "minify": "./node_modules/uglify-js/bin/uglifyjs public/fotoblog/javascripts/locals.js -o public/fotoblog/javascripts/locals.min.js;./node_modules/uglify-js/bin/uglifyjs public/fotoblog/javascripts/supersized.2.0.js -o public/fotoblog/javascripts/supersized.2.0.min.js;./node_modules/uglify-js/bin/uglifyjs public/fotoblog/javascripts/jquery-ui.js -o public/fotoblog/javascripts/jquery-ui.min.js;./node_modules/uglify-js/bin/uglifyjs public/fotoblog/javascripts/jquery.iviewer.js -o public/fotoblog/javascripts/jquery.iviewer.min.js;./node_modules/uglify-js/bin/uglifyjs public/fotoblog/javascripts/jquery.mousewheel.js -o public/fotoblog/javascripts/jquery.mousewheel.min.js;./node_modules/concat/bin/concat.bin.js public/fotoblog/javascripts/concatOrder.txt public/fotoblog/javascripts/app.min.js",
     "start": "./node_modules/.bin/nodemon app.js"
   },
   "licenses": [
