@@ -8,9 +8,9 @@ head(profile='http://gmpg.org/xfn/11')
   meta(name='title', content='')
   meta(name='viewport', content='width=990; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;')
   link(rel='shortcut icon', href='')
-  link(rel='stylesheet', type='text/css', media='screen', href='/stylesheets/main.css')
+  link(rel='stylesheet', type='text/css', media='screen', href='/photoblog/stylesheets/main.css')
 
-  script(type='text/javascript', src='/javascripts/app.min.js')
+  script(type='text/javascript', src='/photoblog/javascripts/app.min.js')
   //- script(type='text/javascript', src='/javascripts/jquery-1.11.0.min.js')
   //- script(type='text/javascript', src='/javascripts/jquery-ui.js')
   //- script(type='text/javascript', src='/javascripts/jquery.mousewheel.js')
@@ -39,7 +39,7 @@ body(oncontextmenu='return false;')
       #logo
         h2
           a(href='/', target='_top')
-            img(src='/images/logo_sib_portal.png', alt='SIB Colombia')
+            img(src='/photoblog/images/logo_sib_portal.png', alt='SIB Colombia')
       h1#slidecaption
 
       #imagedesc
@@ -47,13 +47,13 @@ body(oncontextmenu='return false;')
       // Navigation
       #navigation
         if image.prev
-          a#prevslide.prev(href='/id/#{image.prev}') anterior_imagen
+          a#prevslide.prev(href='/photoblog/id/#{image.prev}') anterior_imagen
         else
           a#prevslide.prev anterior_imagen
         a#pauseplay.play(href='javascript://', onclick='change_class(this)')
           span Play
         if image.next
-          a#nextslide.next(href='/id/#{image.next}') siguiente_imagen
+          a#nextslide.next(href='/photoblog/id/#{image.next}') siguiente_imagen
         else
           a#nextslide.next siguiente_imagen
       // Footer

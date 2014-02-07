@@ -1,6 +1,0 @@
-public/javascripts/jquery-1.11.0.min.js
-public/javascripts/jquery-ui.min.js
-public/javascripts/jquery.mousewheel.min.js
-public/javascripts/supersized.2.0.min.js
-public/javascripts/jquery.iviewer.min.js
-public/javascripts/locals.min.js

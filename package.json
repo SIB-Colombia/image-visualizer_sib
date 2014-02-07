@@ -15,7 +15,7 @@
     }
   ],
   "scripts": {
-    "minify": "./node_modules/uglify-js/bin/uglifyjs public/javascripts/locals.js -o public/javascripts/locals.min.js;./node_modules/uglify-js/bin/uglifyjs public/javascripts/supersized.2.0.js -o public/javascripts/supersized.2.0.min.js;./node_modules/uglify-js/bin/uglifyjs public/javascripts/jquery-ui.js -o public/javascripts/jquery-ui.min.js;./node_modules/uglify-js/bin/uglifyjs public/javascripts/jquery.iviewer.js -o public/javascripts/jquery.iviewer.min.js;./node_modules/uglify-js/bin/uglifyjs public/javascripts/jquery.mousewheel.js -o public/javascripts/jquery.mousewheel.min.js;./node_modules/concat/bin/concat.bin.js public/javascripts/concatOrder.txt public/javascripts/app.min.js",
+    "minify": "./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/locals.js -o public/photoblog/javascripts/locals.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/supersized.2.0.js -o public/photoblog/javascripts/supersized.2.0.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/jquery-ui.js -o public/photoblog/javascripts/jquery-ui.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/jquery.iviewer.js -o public/photoblog/javascripts/jquery.iviewer.min.js;./node_modules/uglify-js/bin/uglifyjs public/photoblog/javascripts/jquery.mousewheel.js -o public/photoblog/javascripts/jquery.mousewheel.min.js;./node_modules/concat/bin/concat.bin.js public/photoblog/javascripts/concatOrder.txt public/photoblog/javascripts/app.min.js",
     "start": "./node_modules/.bin/nodemon app.js"
   },
   "licenses": [
@@ -36,7 +36,9 @@
     "winston": "latest",
     "uglify-js": "latest",
     "concat": "latest",
-    "nodemon": "latest"
+    "nodemon": "latest",
+    "cron": "latest",
+    "time": "latest"
   },
   "devDependencies": {
     "supertest": "latest",
