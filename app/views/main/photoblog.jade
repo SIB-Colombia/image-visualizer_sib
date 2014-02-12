@@ -12,17 +12,25 @@ head(profile='http://gmpg.org/xfn/11')
   link(rel='stylesheet', type='text/css', media='screen', href='/fotoblog/stylesheets/main.css')
 
   script(type='text/javascript', src='/fotoblog/javascripts/app.min.js')
-  //- script(type='text/javascript', src='/javascripts/jquery-1.11.0.min.js')
-  //- script(type='text/javascript', src='/javascripts/jquery-ui.js')
-  //- script(type='text/javascript', src='/javascripts/jquery.mousewheel.js')
-  //- script(type='text/javascript', src='/javascripts/supersized.2.0.js')
-  //- script(type='text/javascript', src='/javascripts/jquery.iviewer.js')
-  //- script(type='text/javascript', src='/javascripts/locals.js')
+  //- script(type='text/javascript', src='/fotoblog/javascripts/jquery-1.11.0.min.js')
+  //- script(type='text/javascript', src='/fotoblog/javascripts/jquery-ui.js')
+  //- script(type='text/javascript', src='/fotoblog/javascripts/jquery.mousewheel.js')
+  //- script(type='text/javascript', src='/fotoblog/javascripts/supersized.2.0.js')
+  //- script(type='text/javascript', src='/fotoblog/javascripts/jquery.iviewer.js')
+  //- script(type='text/javascript', src='/fotoblog/javascripts/locals.js')
   script.
     //alert('#{image.src}');
     var imageT='#{image.src}';
     var prev_image='#{image.prev}';
     var next_image='#{image.next}';
+    if(prev_image == '') {
+      prev_image = null;
+      active = false;
+    }
+    if(next_image == '') {
+      next_image = null;
+      active = false;
+    }
     var name_image='#{image.name}';
     var desc_image='#{image.description}';
 
